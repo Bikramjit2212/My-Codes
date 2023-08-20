@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+<!--in the action option we give the server location -->
+    <form action="">
+     <h1>PAYMENT FORM</h1> 
+     <h2>Contact Information</h2>
+     <p>Required fields are marked with *</p>
+     <!--for taking input-->
+      <p>Name:* <input type="text" name ="name" required> </p>
+      <!--for selecting 1 type-->
+      <fieldset>
+        <!--to show which gender-->
+        <legend>Gender*</legend>
+      <p>        
+        Male <input type="radio" name="gender" id="Male" required>
+        Female <input type="radio" name="gender" id="Female" required>
+        Not Interested <input type="radio" name="gender" id="Not Interested" required>
+      </p>
+    </fieldset>
+
+    <!--contact information-->
+
+    <!--to display the address bar-->
+    <p>Address:* <textarea name="address" id="address" cols="100" rows = "8" required> </textarea></p>
+    <!--to display email-->
+    <p>Email:* <input type="email" name="email" id="email"required></p>
+    <!--to display pincode-->
+    <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+    <hr>
+
+    <!--payment information-->
+    <h2>Payment Information</h2>
+    <!--Card type-->
+    <p>
+        Card type:* 
+        <select name="card_type" id="card_type"required>
+            <option value="">--Select a  Card Type--</option>
+            <option value="Visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="mastercard">Master Card</option>
+        </select>
+    </p>
+
+    <!--input card number-->
+    <p>
+        Card Number* <input type="number" name="card_number" id="card_number"required>
+    </p>
+
+    <!--input date-->
+    <p>
+        Expiration Date:* <input type="date" name="exp_date" id="exp_date"required>
+    </p> 
+
+    <!--input CVV , makes hidden-->
+    <p>
+        CVV* <input type="password" name="cvv" id="cvv"required>
+    </p>
+    
+    <!--for submit button-->
+    <input type="submit" value="Pay Now">
+
+    </form>
+</body>
+</html>
