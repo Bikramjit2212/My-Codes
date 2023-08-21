@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Website | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Armours</a>
+    <a href="#">JARVIS</a>
+    <a href="#">AI</a>
+    <a href="#">Buisness</a>
+    <a href="#">login/signup</a>
+  </nav>
+  
+  <header>
+    <h1>Tony Stark</h1>
+  </header>  
+  
+  <main>
+    <section>
+        <h2>Workings</h2>
+        <video src="video/video.mp4" width="33%" poster="image/iron-man-laboratory-wallpaper-preview.jpg" controls></video>
+        <video src="video/video.mp4" width="33%" poster="image/iron-man-laboratory-wallpaper-preview.jpg" controls></video>
+        <video src="video/video.mp4" width="33%" poster="image/iron-man-laboratory-wallpaper-preview.jpg" controls></video>
+        <br>
+        <br>
+        <video src="video/video.mp4" width="33%" poster="image/iron-man-laboratory-wallpaper-preview.jpg" controls></video>
+        <video src="video/video.mp4" width="33%" poster="image/iron-man-laboratory-wallpaper-preview.jpg" controls></video>
+        <video src="video/video.mp4" width="33%" poster="image/iron-man-laboratory-wallpaper-preview.jpg" controls></video>
+    </section>
+    <section>
+        <h2>YouTube</h2>
+        <iframe width="33%" height="75%" src="https://www.youtube.com/embed/nzW6mEu20ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="33%" height="75%" src="https://www.youtube.com/embed/nzW6mEu20ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="33%" height="75%" src="https://www.youtube.com/embed/nzW6mEu20ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <section>
+        <h2>Blue Prints</h2>
+        <a href="notes/2021.pdf" target="_blank"><img src="image/tony.jpg" alt="" width="30%" height="50%"></a>
+        <a href="notes/2021.pdf" target="_blank"><img src="image/tony.jpg" alt="" width="30%" height="50%"></a>
+        <a href="notes/2021.pdf" target="_blank"><img src="image/tony.jpg" alt="" width="30%" height="50%"></a>
+    </section>
+    <section>
+        <h2>About Ironman</h2>
+        <img src="image/SuperheroesWallpapersHD4k23.jpg" alt="Iron man" width="60%">
+        <h3>Iron Man / Tony Stark</h3>
+        <a href="https://youtu.be/96AO6L9qp2U" target="_blank">YouTube</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+        <a href="https://youtu.be/Ddk9ci6geSs" target="_blank">YouTube</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+        <a href="https://youtu.be/tso8iUBeuXM" target="_blank">YouTube</a>  
+        <h4>A wealthy American business magnate, playboy, philanthropist, inventor and ingenious scientist, Anthony Edward "Tony" Stark</h4>
+        <h5>Tony Stark began the MCU with Iron Man and went on to be integral to the main storyline. He was a founding member of the Avengers and had one of that series' most significant character arcs. He made appearances outside his own trilogy and the Avengers movies, appearing in Captain America and Spider-Man.</h5>
+    </section>
+  </main>
+  <footer>
+    <a href="#">FAQ</a>
+    <a href="#">Contact</a>
+    <a href="#">Terms</a>
+    <a href="#">Privacy</a>
+    <a href="#">Refund</a>
+    <a href="#">&copy;2022 | Bikramjit Roy</a>
+  </footer>
+</body>
+</html>
